@@ -5,10 +5,10 @@ subtitle: "REMI.com Webinar by Fred Trezy, REMI CEO" # only for html output
 author: "Personal Notes by David Passmore <br> dlp@davidpassmore.net <br>" 
 date: "2 March 2022"
 output:
+  tufte::tufte_html: default
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
-  tufte::tufte_html: default
   tufte::tufte_book:
     citation_package: natbib
     latex_engine: xelatex
@@ -24,19 +24,19 @@ options(htmltools.dir.version = FALSE)
 ```
 ***
 
->I attended an interesting webinar last week that Fred Treyz, CEO of [REMI.com](https://remi.com), presented about inflation, transportation, and oil shocks. Although the entire webinar was informative and throught-provoking,^[All slides shown during the webinar and a video recording of the webinar are available at [the REMI.com web site](https://www.remi.com/event/transportation-inflation-and-the-supply-chain/)] I found that three slides encasulated components of inflationary and deflationary dynamics and their differential effects on various social and economic classes. Then, summarized on two slides are the results of exercises shared by Fred that simulated a 10% hike in the price of oil.
+>I attended an interesting webinar last week that Fred Treyz, CEO of [REMI.com](https://remi.com), presented about inflation, transportation, and oil shocks. Although the entire webinar was informative and throught-provoking,^[All slides shown during the webinar and a video recording of the webinar are available at [the REMI.com web site](https://www.remi.com/event/transportation-inflation-and-the-supply-chain/)] I found that three slides encasulated well the components of inflationary and deflationary dynamics and their differential effects on various social and economic classes. Then, summarized on two slides are the results of simulations a 10% hike in the price of oil that Fred shared. 
 
 ***
 
 
 ## **Dynamics of Inflation**
 
-Various forces can increase or decrease consumer prices in complex ways.^[ *Monetary policy* is the process by which the government, central bank, or monetary authority manages the supply of money, or trading in foreign exchange markets. *Fiscal policy* attempts to influence the direction of the economy through changes in government spending or taxes. On top of these policies, we have experienced severe *supply-chain disruptions* and *labor shortages* that added to inflationary pressures.] ![](infl1.jpg)
+Various forces can increase or decrease consumer prices in complex ways.^[ *Monetary policy* is the process by which a government, central bank, or monetary authority manages the supply of money, or trading in foreign exchange markets. *Fiscal policy* attempts to influence the direction of the economy through changes in government spending or taxes. On top of these policies, severe *supply-chain disruptions* and *labor shortages* have added to inflationary pressures.] ![](infl1.jpg)
 
-^[*Technology* can make production more efficient. *Globalization* promotes trade with low-cost producers. *Aging* make different consumption choices. *Remote* work reduces costs of transportation and improves access to labor independent of geography.]![](defl1.jpg) 
+^[*Technology* can make production more efficient. *Globalization* promotes trade with low-cost producers. *Aging* involves changing the amount and kind of consumption. *Remote* work reduces costs of transportation and improves access to labor independent of geography.]![](defl1.jpg) 
 
 
-^[Simply put, inflation degrades the well-being of lower income groups more than high-income/wealth groups. Lower income groups spend a high proportion of their wages on necessities that higher income groups, which have more cushion to buy higher priced necessities and discretionary consumption]![](inflpacts.jpg)
+^[Simply put, inflation degrades the well-being of lower income groups more than higher income and wealthy groups. Lower income groups spend a high proportion of their cash on necessities than higher income/wealth groups, which have more cushion to buy higher priced necessities and discretionary consumption]![](inflpacts.jpg)
 
 ## **Role of Transportation in Inflation and Deflation**
 
@@ -47,7 +47,11 @@ Transportation is a major and direct driver of labor productivity.
 
 ***
 
-><span style="color:red;font-weight:900;font-size:16px">The five slides displayed in my notes are not mine; they--and the economic modeling behind them--are REMI's. Find more, detailed information in the webinar slides and recording. REMI is a leading provider of economic/demographic models that allow examination of "what if" questions pertinent to evaluation of alternatives to economic. transportation, and tax policy at local, regional, and national scales. *Disclosure:* I am not a shill for REMI. I was s satified and enthusiastic REMI customer since the early 1990s until I retired from Penn State in 2020.</span>
+><span style="color:red;font-weight:900;font-size:16px">*Disclosure:* I am not a shill for REMI. I was s satified and enthusiastic REMI customer since the early 1990s until I retired from Penn State in 2020.</span> 
+
+><span style="color:red;font-weight:900;font-size:16px">*Not Mine; REMI's:* The five slides displayed in my notes are not mine. They--and the economic modeling behind them--are REMI's. Find more, detailed information in the webinar slides and recording. My notes are meant to comment on Fred's presentation.</span>
+
+><span style="color:red;font-weight:900;font-size:16px">*What is REMI:* REMI is a leading provider of economic/demographic models that allow examination of "what if" questions pertinent to evaluation of alternatives to economic. transportation, and tax policy at local, regional, and national scales. </span>
 
 ><span style="color:red;font-weight:400;font-size:15px"> ~dlp</span>
 
