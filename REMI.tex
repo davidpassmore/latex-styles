@@ -1,0 +1,166 @@
+\documentclass[]{tufte-handout}
+
+% ams
+\usepackage{amssymb,amsmath}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \makeatletter
+  \@ifpackageloaded{fontspec}{}{\usepackage{fontspec}}
+  \makeatother
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \makeatletter
+  \@ifpackageloaded{soul}{
+     \renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+     \renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+   }{}
+  \makeatother
+
+\fi
+
+% graphix
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+
+% booktabs
+\usepackage{booktabs}
+
+% url
+\usepackage{url}
+
+% hyperref
+\usepackage{hyperref}
+
+% units.
+\usepackage{units}
+
+
+\setcounter{secnumdepth}{-1}
+
+% citations
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+
+% pandoc syntax highlighting
+
+% table with pandoc
+
+% multiplecol
+\usepackage{multicol}
+
+% strikeout
+\usepackage[normalem]{ulem}
+
+% morefloats
+\usepackage{morefloats}
+
+
+% tightlist macro required by pandoc >= 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% title / author / date
+\title[A REMI.com webinar]{REMI Webinar: \emph{Transportation,
+Inflation, \& the Supply Chain}}
+\author{Personal Notes by David Passmore
+\href{mailto:dlp@davidpassmore.net}{\nolinkurl{dlp@davidpassmore.net}}}
+\date{2 March 2022}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+I attended an interesting webinar last week that Fred Treyz, CEO of
+\href{https://remi.com}{REMI.com}, presented about inflation,
+transportation, and oil shocks. Although the entire webinar was
+informative and throught-provoking,\footnote{All slides shown during the
+  webinar and a video recording of the webinar are available at
+  \href{https://www.remi.com/event/transportation-inflation-and-the-supply-chain/}{the
+  REMI.com web site}} I found that three slides encasulated components
+of inflationary and deflationary dynamics and their differential effects
+on various social and economic classes. Then, summarized on two slides
+are the results of exercises shared by Fred that simulated a 10\% hike
+in the price of oil.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{dynamics-of-inflation}{%
+\subsection{\texorpdfstring{\textbf{Dynamics of
+Inflation}}{Dynamics of Inflation}}\label{dynamics-of-inflation}}
+
+Various forces can increase or decrease consumer prices in complex
+ways.\footnote{ \emph{Monetary policy} is the process by which the
+  government, central bank, or monetary authority manages the supply of
+  money, or trading in foreign exchange markets. \emph{Fiscal policy}
+  attempts to influence the direction of the economy through changes in
+  government spending or taxes. On top of these policies, we have
+  experienced severe \emph{supply-chain disruptions} and \emph{labor
+  shortages} that added to inflationary pressures.}
+\includegraphics{infl1.jpg}
+
+\footnote{\emph{Technology} can make production more efficient.
+  \emph{Globalization} promotes trade with low-cost producers.
+  \emph{Aging} make different consumption choices. \emph{Remote} work
+  reduces costs of transportation and improves access to labor
+  independent of geography.}\includegraphics{defl1.jpg}
+
+\footnote{Simply put, inflation degrades the well-being of lower income
+  groups more than high-income/wealth groups. Lower income groups spend
+  a high proportion of their wages on necessities that higher income
+  groups, which have more cushion to buy higher priced necessities and
+  discretionary consumption}\includegraphics{inflpacts.jpg}
+
+\hypertarget{role-of-transportation-in-inflation-and-deflation}{%
+\subsection{\texorpdfstring{\textbf{Role of Transportation in Inflation
+and
+Deflation}}{Role of Transportation in Inflation and Deflation}}\label{role-of-transportation-in-inflation-and-deflation}}
+
+Transportation is a major and direct driver of labor productivity.
+\footnote{Transportation impediments have dented our supply chain
+  significantly. Labor shortages amplify these transportation
+  difficulties.} \includegraphics{trans1.jpg}
+
+\footnote{The possibility of \emph{stagflation} is a worry. A period of
+  slow economic growth and high unemployment (i.e., stagnation) can
+  combine with rising prices (i.e., inflation) to create a
+  recession(i.e., a business cycle contraction when there is a general
+  decline in overall economic activity).}\includegraphics{trans2.jpg}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+{The five slides displayed in my notes are not mine; they--and the
+economic modeling behind them--are REMI's. Find more, detailed
+information in the webinar slides and recording. REMI is a leading
+provider of economic/demographic models that allow examination of ``what
+if'' questions pertinent to evaluation of alternatives to economic.
+transportation, and tax policy at local, regional, and national scales.
+\emph{Disclosure:} I am not a shill for REMI. I was s satified and
+enthusiastic REMI customer since the early 1990s until I retired from
+Penn State in 2020.}
+\end{quote}
+
+\begin{quote}
+{ \textasciitilde dlp}
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\bibliography{skeleton.bib}
+
+
+
+\end{document}

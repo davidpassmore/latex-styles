@@ -5,10 +5,10 @@ subtitle: "REMI.com Webinar by Fred Trezy, REMI CEO" # only for html output
 author: "Personal Notes by David Passmore <br> dlp@davidpassmore.net <br>" 
 date: "2 March 2022"
 output:
-  tufte::tufte_html: default
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
+  tufte::tufte_html: default
   tufte::tufte_book:
     citation_package: natbib
     latex_engine: xelatex
